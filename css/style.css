@@ -2,7 +2,7 @@
 
 
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
-
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 
@@ -28,9 +28,9 @@ html {
 }
 
 body {
-     color: #666666;
+     /* color: #666666; */
      font-size: 14px;
-     font-family: poppins;
+     font-family: 'Kumbh Sans', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
@@ -450,6 +450,11 @@ a.readmore_bt {
 .logo {
      float: left;
      position: relative;
+}
+
+.logo_img {
+     height: 100px;
+     width: auto;
 }
 
 nav.main-menu {
@@ -1417,7 +1422,7 @@ a.slide_banner {
      max-width: 720px;
      width: 100%;
      text-transform: uppercase;
-     color: #333;
+     color: rgb(0, 0, 0);
 }
 .top-banner-slider .flex_caption1 .title1 {
      font-size: 36px;
@@ -1572,11 +1577,46 @@ input[type="radio"] .styled:checked+label::after {
 .carousel-indicators li {
      display: none;
 }
+
+.overview {
+     padding: 0;
+     align-self: center;
+     height: 600px;
+     width: 100%;
+     margin-top: 150px;
+     text-align: center;
+     background-color: rgb(15, 65, 87);
+}
+
+.transbox {
+     padding: 0;
+     align-self: center;
+     height: 600px;
+     width: 100%;
+     margin-top: 150px;
+     text-align: center;
+     background: url(../images/new_banner.jpg);
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     opacity: 0.4;
+}
+
 .banner-main {
+     color: white;
+     border:5px solid rgb(90, 204, 156);
      position: relative;
-     background: url(../images/banner.jpg);
+     background: url(../images/new_banner1.jpg);
      background-size: 100% 100%;
 }
+
+.banner-main2 {
+     color: white;
+     background-size: 100% 100%;
+     background-color: rgba(0, 0, 0,0.5);
+}
+
 .banner-main .carousel-caption {
      text-align: left;
      left: 0;
