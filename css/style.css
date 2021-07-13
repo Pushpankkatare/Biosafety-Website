@@ -4,7 +4,8 @@
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
 @import url(animate.min.css);
@@ -30,7 +31,7 @@ html {
 body {
      /* color: #666666; */
      /* font-size: 14px; */
-     font-family: 'Montserrat', 'Kumbh Sans', sans-serif;
+     /* font-family: 'Montserrat', 'Kumbh Sans', sans-serif; */
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
@@ -47,7 +48,7 @@ a {
      transition: all .3s ease-in-out;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -104,7 +105,7 @@ h6 a {
      color: #212121;
      text-decoration: none!important;
      opacity: 1
-}
+} */
 
 button:focus {
      outline: none;
@@ -449,7 +450,7 @@ a.readmore_bt {
      background-size: 100% 100%;
      background-repeat: no-repeat;
      min-height: 110px;
-     padding-top: 45px
+     padding-top: 20px
 }
 
 .logo {
@@ -1415,7 +1416,7 @@ a.slide_banner {
      margin: 0 12px 0 15px;
 }
 .slide1_banner1 {
-     width: 570px;
+     width: 270px;
 }
 .slide1_banner2 {
      width: 270px;
@@ -1488,7 +1489,7 @@ a.slide_banner::before {
      right: 0;
      bottom: 0;
      opacity: 0;
-     border: 2px solid #ffffff;
+     border: 2px solid #000000;
      transition: all 0.1s ease-in-out;
      -webkit-transition: all 0.1s ease-in-out;
 }
@@ -1584,14 +1585,16 @@ input[type="radio"] .styled:checked+label::after {
 
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 .marginii {
-     margin: 154px 0px 100px 0px;
+     margin: 110px 0px 30px 0px;
 }
 .carousel-indicators li {
      display: none;
 }
 
 .carousel-inner {
-     background-color: #5cdb95;
+     /* background-color: #5cdb95; */
+     /* background-color: #83da87; */
+     background-color: white;
 }
 
 .overview {
@@ -1621,7 +1624,7 @@ input[type="radio"] .styled:checked+label::after {
 
 .banner-main {
      color: white;
-     border:5px solid rgb(90, 204, 156);
+     /* border:5px solid rgb(90, 204, 156); */
      position: relative;
      /* background: url(../images/new_banner1.jpg); */
      background-size: 100% 100%;
@@ -1636,44 +1639,58 @@ input[type="radio"] .styled:checked+label::after {
 .banner-main .carousel-caption {
      text-align: left;
      left: 0;
-     top: 16%;
+     top: 1%;
      position: relative;
 }
 .banner-main .carousel-caption h1 {
      font-size: 46px;
      line-height: 55px;
-     font-weight: bold;
-     color: #308409;
+     font-size: 60px;
+     font-family: 'Montserrat';
+     font-style: bold;
+     color: yellowgreen;
 }
 .banner-main .carousel-caption p {
-     color: #0c0404;
+     color: #05386b;
      padding: 9px 0px;
+     font-weight: bold;
      margin-bottom: 50px;
 }
 .color {
-     color: #0c0404;
+     color: #fbb919;
 }
 .btn-primary {
-     background: #000;
+     background: #05386b;
      border: indianred;
      max-width: 170px;
      width: 100%;
      margin-right: 10px;
 }
 .btn-primary:hover {
-     background: #308409;
+     background: #ffffff;
 }
 .img-box {
-     border: solid blue;
-     margin-top: 78px;
+     border: solid white 5px;
+     border-radius: 50%;
+     margin-top: 50px;
+     height: 500px;
+
+     background: url(../images/hdpic2.jpg);
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     opacity: 1;
+
+     /* align-content: flex-end; */
 }
 .img-box figure {
      margin: 0;
 }
 .img-box figure img {
-     height: 250px;
-     width: auto;
-     box-shadow: #308409 0px 0px 0px 0px;
+     /* height: 200px;
+     width: auto; */
+     /* box-shadow: #308409 0px 0px 0px 0px; */
 }
 .plants {
      padding: 90px 0px;
