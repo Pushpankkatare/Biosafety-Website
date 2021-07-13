@@ -269,4 +269,18 @@ ul.link li {
     margin: 140px 0px 0px 0px;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "one" 
+        "two"
+        "three" 
+        "four"
+        "five" 
+        "six";
+        grid-gap: 5px;
+}
+
 }

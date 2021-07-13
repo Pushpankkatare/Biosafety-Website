@@ -1598,10 +1598,14 @@ input[type="radio"] .styled:checked+label::after {
      background-color: white;
 }
 
+/* .parallax-scroll {
+     display: grid;
+} */
+
 .overview {
      padding: 0;
      align-self: center;
-     height: 600px;
+     /* height: 700px; */
      width: 100%;
      margin-top: 150px;
      text-align: center;
@@ -1611,9 +1615,9 @@ input[type="radio"] .styled:checked+label::after {
 .transbox {
      padding: 0;
      align-self: center;
-     height: 600px;
+     height: 350px;
      width: 100%;
-     margin-top: 150px;
+     /* margin-top: 150px; */
      text-align: center;
      background: url(../images/hdpic2.jpg);
      -webkit-background-size: cover;
@@ -1621,7 +1625,29 @@ input[type="radio"] .styled:checked+label::after {
      -o-background-size: cover;
      background-size: cover;
      opacity: 0.4;
+
+     background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.bgcol {
+     background: white;
+}
+.bg-text {
+     padding: 20px;
+     align-content: left;
+     align-self: center;
+     width: 200px;
+     z-index: 10000;
+     background:transparent;
+     /* border: 5px solid black; */
+     color:#fbb919;
+     font-size: 50px;
+     text-decoration: underline;
+}
+
 
 .banner-main {
      color: white;
@@ -2273,19 +2299,30 @@ iframe{
 
  .grid{
       display: grid;
-      height: 100vp;
-      grid-template-columns: 1fr 1fr;
+      height: 600px;
+      grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       grid-template-areas: 
-          "one two"
-          "three four"
-          "five six";
-          grid-gap: 5px;
+          "one two three"
+          "four five six";
+
+     justify-content: space-evenly;
+     /* justify-content: space-around; */
+     /* align-content: center; */
+     /* align-content: space-evenly; */
+     /* grid-column-gap: 10px;
+     grid-row-gap: 10px; */
+     grid-gap: 10px 10px;
+     margin: 50px;
  }
 
  #one{
+      padding:0;
+      margin: 0;
       background:yellow;
       grid-area: one;
+      border: 5px solid black;
+      border-radius: 5px;
  }
  #two{
      background:red;
