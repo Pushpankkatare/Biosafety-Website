@@ -80,6 +80,9 @@
     #collapseFilter.d-md-block {
         padding: 30px 0px;
     }
+    .marginii {
+        margin: 140px 0px 0px 0px;
+   }
 }
 
 
@@ -126,6 +129,9 @@
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
     }
+    .marginii {
+        margin: 140px 0px 0px 0px;
+   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -140,6 +146,9 @@ right: -221px;
     left: -650px;
 width: 30%;
    }
+   .marginii {
+    margin: 140px 0px 0px 0px;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -168,6 +177,9 @@ width: 41%;
 }
 .paddimg-left {
     padding-left: 15px;
+}
+.marginii {
+    margin: 140px 0px 0px 0px;
 }
 }
 
@@ -253,6 +265,8 @@ ul.link li {
     padding: 8px 12px;
     padding-bottom: 0px; 
 }
-
+.marginii {
+    margin: 140px 0px 0px 0px;
+}
 
 }
