@@ -1615,7 +1615,7 @@ input[type="radio"] .styled:checked+label::after {
 .transbox {
      padding: 0;
      align-self: center;
-     height: 350px;
+     height: 800px;
      width: 100%;
      /* margin-top: 150px; */
      text-align: center;
@@ -1636,18 +1636,29 @@ input[type="radio"] .styled:checked+label::after {
      background: white;
 }
 .bg-text {
+     position: absolute;
+     margin-top: -500px;
      padding: 20px;
      align-content: left;
      align-self: center;
-     width: 200px;
+     width: 800px;
      z-index: 10000;
      background:transparent;
      /* border: 5px solid black; */
+     color: white;
+     font-weight: 800px;
+}
+
+.stl {
+     width: 800px;
      color:#fbb919;
      font-size: 50px;
      text-decoration: underline;
 }
 
+.stl2 {
+     width: 500px;
+}
 
 .banner-main {
      color: white;
