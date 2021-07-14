@@ -266,7 +266,41 @@ ul.link li {
     padding-bottom: 0px; 
 }
 .marginii {
-    margin: 140px 0px 0px 0px;
+    margin: 180px 0px 0px 0px;
+}
+
+.overview {
+    margin-top: 0px;
+    /* height: 500px */
+}
+
+.bgcol {
+    background: white;
+}
+.bg-text {
+    position: absolute;
+    margin-top: -700px;
+    padding: 20px;
+    align-content: left;
+    align-self: center;
+    width: 300px;
+    z-index: 10000;
+    background:transparent;
+    /* border: 5px solid black; */
+    color: white;
+    font-weight: 800px;
+}
+
+.stl {
+    width: auto;
+    color:#fbb919;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.stl2 {
+    width: 300px;
+    color: white;
 }
 
 .grid{
