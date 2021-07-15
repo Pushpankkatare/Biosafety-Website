@@ -229,7 +229,7 @@ nav.main-menu {
 
 /* color of navbar */
 .main-menu ul>li a {
-     line-height: 20px;
+     /* line-height: 20px; */
      font-size: 17px;
      display: block;
      font-weight: 900;

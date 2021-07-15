@@ -1,13 +1,68 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
+/*------------------------------------------------------------------- 1199px x 992px ---------------------------------------------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .titlepage h2::after 
+    {
+        width: 58%;
+    }
+    .about-box .titlepage h2::after {
+        width: 52%;
+        right: -221px;
+    }
+    .contact .titlepage h2::after {
+        left: -650px;
+        width: 30%;
+    }
+    
+    .marginii {
+        margin: 140px 0px 0px 0px;
+    }
+
+    .main-menu ul>li a {
+        font-size: 15px;
+        padding: 22px 26px;
+    }
+
+}
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     
-    .header-search {
-        padding: 15px 0px;
+    .main-menu ul>li a {
+        font-size: 14px;
+         padding: 22px 26px;
     }
+
+    .banner-main .carousel-caption h1 {
+
+        font-size: 36px;
+        padding-top: 30px;
+    }
+    .banner-main .carousel-caption p {
+
+        margin-bottom: 7px;
+    }
+    .btn-primary {max-width: 144px;}
+    .titlepage h2::after {width: 79%;}
+    .about-box .titlepage h2::after {width: 73%;
+right: -88px;}
+   .contact .titlepage h2::after {
+left: -403px;
+width: 41%;
+   }
+.paddimg-right {
+    padding-right: 15px;
+}
+.paddimg-left {
+    padding-left: 15px;
+}
+.marginii {
+    margin: 140px 0px 0px 0px;
+}
 }
 
 
@@ -134,79 +189,7 @@
    }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    
-    .titlepage h2::after {width: 58%;}
-    .about-box .titlepage h2::after {
-        width: 52%;
-right: -221px;
-    }
-    .Nursery-img .text-box h3 {padding: 111px 50px;}
-    .contact .titlepage h2::after {
-    left: -650px;
-width: 30%;
-   }
-   .marginii {
-    margin: 140px 0px 0px 0px;
-}
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .main-menu ul > li a {padding: 8px 12px ; }
-
-    .banner-main .carousel-caption h1 {
-
-        font-size: 36px;
-
-padding-top: 30px;
-    }
-    .banner-main .carousel-caption p {
-
-        margin-bottom: 7px;
-    }
-    .btn-primary {max-width: 144px;}
-    .titlepage h2::after {width: 79%;}
-    .about-box .titlepage h2::after {width: 73%;
-right: -88px;}
-   .contact .titlepage h2::after {
-left: -403px;
-width: 41%;
-   }
-.paddimg-right {
-    padding-right: 15px;
-}
-.paddimg-left {
-    padding-left: 15px;
-}
-.marginii {
-    margin: 140px 0px 0px 0px;
-}
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-    .last {display: none;}
-    .banner-main .carousel-caption {top: 0%;}
-.titlepage h2 {
-font-size: 42px; 
-}
-.titlepage h2::after {
-width: 88%;
-}
-
-.about-box .titlepage h2::after {width: 45%;
-right: -281px;}
-.Nursery-img .text-box h3 {
-font-size: 36px;
-padding: 126px 40px;
-}
-
-
-.contact .titlepage h2::after {
-    left: -234px;
-width: 55%;
-}
-    .img-box {display: none;}
-}
+/*------------------------------------------------------------------- 575px ---------------------------------------------------------------------*/
 
 
 @media (max-width: 575px) {
@@ -303,4 +286,32 @@ ul.link li {
     color: white;
 }
 
+}
+
+/*------------------------------------------------------------------- 767px x 576px ---------------------------------------------------------------------*/
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .last {display: none;}
+    .banner-main .carousel-caption {top: 0%;}
+.titlepage h2 {
+font-size: 42px; 
+}
+.titlepage h2::after {
+width: 88%;
+}
+
+.about-box .titlepage h2::after {width: 45%;
+right: -281px;}
+.Nursery-img .text-box h3 {
+font-size: 36px;
+padding: 126px 40px;
+}
+
+
+.contact .titlepage h2::after {
+    left: -234px;
+width: 55%;
+}
+    .img-box {display: none;}
 }
