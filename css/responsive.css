@@ -16,16 +16,51 @@
         left: -650px;
         width: 30%;
     }
-    
-    .marginii {
-        margin: 140px 0px 0px 0px;
-    }
 
     .main-menu ul>li a {
         font-size: 15px;
         padding: 22px 26px;
     }
 
+    /* Banner */
+    .marginii {
+        margin: 120px 0px 0px 0px;
+    }
+
+    .banner-main .carousel-caption h1 {
+        font-size: 54px;
+        padding-top: 30px;
+    }
+    #color {
+        font-size: 44px;
+    }
+    .banner-main .carousel-caption p {
+
+    }
+    .img-box {
+        margin-top: 60px;
+        height: 400px;
+    }
+
+    /* About Us */
+    .bg-text {
+        margin-top: -650px;
+        padding: 20px;
+    }
+    .stl {
+        font-size: 40px;
+    }
+    .stl2 {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    /* General Questions */
+    .questions-list {
+        padding: 100px 0;
+        margin-top: -200px;
+        margin-left: 520px;
+    }
 }
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
@@ -34,35 +69,70 @@
     
     .main-menu ul>li a {
         font-size: 14px;
-         padding: 22px 26px;
+        padding: 8px 12px;
+    }
+    /* Banner */
+    .marginii {
+        margin: 140px 0px 0px 0px;
     }
 
     .banner-main .carousel-caption h1 {
-
         font-size: 36px;
         padding-top: 30px;
     }
-    .banner-main .carousel-caption p {
-
-        margin-bottom: 7px;
+    #color {
+        font-size: 31px;
     }
+    .banner-main .carousel-caption p {
+    }
+
     .btn-primary {max-width: 144px;}
+
+    .img-box {
+        margin-top: 60px;
+        height: 400px;
+    }
+    /* About Us */
+    .bg-text {
+        margin-top: -725px;
+        padding: 20px;
+    }
+    .stl {
+        font-size: 40px;
+    }
+    .stl2 {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
     .titlepage h2::after {width: 79%;}
-    .about-box .titlepage h2::after {width: 73%;
-right: -88px;}
-   .contact .titlepage h2::after {
-left: -403px;
-width: 41%;
+
+    .about-box .titlepage h2::after {
+        width: 73%;
+        right: -88px;
+    }
+    .contact .titlepage h2::after {
+    left: -403px;
+    width: 41%;
+    }
+
+    /* General Questions */
+    .questions-list {
+        padding: 100px 0;
+        margin-top: -200px;
+        margin-left: 420px;
+    }
+    .questions-block h2 {
+        line-height: 50px;
+        font-size: 40px;
+        margin: -20px;
+    }
+
+    /* Video */
+    .video .video-box {
+        margin-bottom: 30px;
+        height: 600px;
    }
-.paddimg-right {
-    padding-right: 15px;
-}
-.paddimg-left {
-    padding-left: 15px;
-}
-.marginii {
-    margin: 140px 0px 0px 0px;
-}
 }
 
 
@@ -269,7 +339,7 @@ ul.link li {
     width: 300px;
     z-index: 10000;
     background:transparent;
-    /* border: 5px solid black; */
+    /* border: 5px solid black;*/
     color: white;
     font-weight: 800px;
 }

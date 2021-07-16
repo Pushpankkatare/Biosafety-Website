@@ -402,15 +402,17 @@ nav.main-menu {
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
+
+     position: relative;
 }
 
 
 .bg-text {
      position: absolute;
      /* height: ; */
-     margin-top: -700px;
+     margin-top: -680px;
      padding: 20px;
-     /* align-content: left; */
+     align-content: center;
      /* align-self: center; */
      z-index: 10000;
      background:transparent;
@@ -422,68 +424,25 @@ nav.main-menu {
 .stl {
      /* width: 40%; */
      color:#fbb919;
-     font-size: 60px;
+     font-size: 50px;
      text-decoration: underline;
 }
 
 .stl2 {
 
      text-align: justify;
-     width: 40%;
-     margin-left: 30%;
-     margin-right: 30%;
+     padding-left: 150px;
+     padding-right: 150px;
      color: white;
 }
 
-/*--------------------------------------------------------------------- General Questions ---------------------------------------------------------------------*/
-
-*, ::after, ::before {
-     box-sizing: border-box;
- }
- *, ::after, ::before {
-     box-sizing: border-box;
- }
- :root {
-     --blue: #007bff;
-     --indigo: #6610f2;
-     --purple: #6f42c1;
-     --pink: #e83e8c;
-     --red: #dc3545;
-     --orange: #fd7e14;
-     --yellow: #ffc107;
-     --green: #28a745;
-     --teal: #20c997;
-     --cyan: #17a2b8;
-     --white: #fff;
-     --gray: #6c757d;
-     --gray-dark: #343a40;
-     --primary: #00405b;
-     --secondary: #6c757d;
-     --success: #28a745;
-     --info: #17a2b8;
-     --warning: #ffc107;
-     --danger: #dc3545;
-     --light: #f8f9fa;
-     --dark: #343a40;
-     --Aquamarine: #4DF5AE;
-     --Turquoise: #4DF5DB;
-     --yellow: #F5E84D;
-     --DarkBlue: #00405B;
-     --greyBlue: #DAE3E7;
-     --breakpoint-xs: 0;
-     --breakpoint-sm: 576px;
-     --breakpoint-md: 768px;
-     --breakpoint-lg: 992px;
-     --breakpoint-xl: 1200px;
-     --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-     --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
- }
- 
+/*--------------------------------------------------------------------- General Questions ---------------------------------------------------------------------*/ 
  
  @media (max-width: 768px){
  .section-general-questions {
      background-attachment: inherit;
      background-size: cover;
+     
  }}
  @media (max-width: 599px)
  {.section-general-questions {
@@ -688,6 +647,8 @@ nav.main-menu {
      left: 0;
      border-radius: 5rem;
  }
+
+ /* List hovering */
  .questions-list li a:hover{
      color:#FBB919;
  }
@@ -739,7 +700,7 @@ nav.main-menu {
 
 .video .video-box {
      background-color: #dae3e7;
-     opacity: 1;
+     opacity: 0.9;
      /* background-color: rgb(198, 218, 255); */
      /* box-shadow: #dcd8d8 0px 1px 3px 0px; */
      margin-bottom: 30px;
@@ -777,13 +738,9 @@ iframe{
      opacity: 0.8;
 }
 
-/* iframe:before {
-     opacity: 0.8;
-} */
-/* 
-iframe:after{
+iframe:hover {
      opacity: 1;
-} */
+}
 
 /*--------------------------------------------------------------------- Footer ---------------------------------------------------------------------*/
 
@@ -879,48 +836,7 @@ ul.location_icon span {
 
 /*--------------------------------------------------------------------- Cards ---------------------------------------------------------------------*/
 
-
-*, ::after, ::before {
-     box-sizing: border-box;
- }
- :root {
-     --blue: #007bff;
-     --indigo: #6610f2;
-     --purple: #6f42c1;
-     --pink: #e83e8c;
-     --red: #dc3545;
-     --orange: #fd7e14;
-     --yellow: #ffc107;
-     --green: #28a745;
-     --teal: #20c997;
-     --cyan: #17a2b8;
-     --white: #fff;
-     --gray: #6c757d;
-     --gray-dark: #343a40;
-     --primary: #00405b;
-     --secondary: #6c757d;
-     --success: #28a745;
-     --info: #17a2b8;
-     --warning: #ffc107;
-     --danger: #dc3545;
-     --light: #f8f9fa;
-     --dark: #343a40;
-     --Aquamarine: #4DF5AE;
-     --Turquoise: #4DF5DB;
-     --yellow: #F5E84D;
-     --DarkBlue: #00405B;
-     --greyBlue: #DAE3E7;
-     --breakpoint-xs: 0;
-     --breakpoint-sm: 576px;
-     --breakpoint-md: 768px;
-     --breakpoint-lg: 992px;
-     --breakpoint-xl: 1200px;
-     --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-     --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
- }
-
- 
- article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
      display: block;
  }
  
