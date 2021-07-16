@@ -270,7 +270,7 @@
         margin: -5px;
     }
     .questions-block {
-        margin-left: 5px;
+        margin-left: -20px;
     }
     /* Video */
     .video .video-box {
@@ -282,7 +282,7 @@
    }
    /* Footer */
    .menu-bottom .link li{
-    padding: 0 5px 0 5px;
+    padding: 0 5px 40px 5px;
     /* border: 5px solid black; */
 }
 }
