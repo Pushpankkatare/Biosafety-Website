@@ -120,15 +120,17 @@
     /* General Questions */
     .questions-list {
         padding: 100px 0;
-        margin-top: -200px;
-        margin-left: 420px;
+        margin-top: -70px;
+        margin-left: 0px;
     }
     .questions-block h2 {
         line-height: 50px;
-        font-size: 40px;
-        margin: -20px;
+        font-size: 48px;
+        margin: -25px;
     }
-
+    .questions-block {
+        margin-left: 5px;
+    }
     /* Video */
     .video .video-box {
         margin-bottom: 30px;
@@ -194,56 +196,101 @@
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 280px) and (max-width: 599px) {
-    .cart-content-right {
-        padding-bottom: 5px;
-    }
+@media only screen and (min-width: 280px) and (max-width: 400px) {
     .megamenu>.row [class*="col-"] {
         padding: 0px;
-    }
-    .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
-    }
-    .mean-container .mean-nav ul li a {
-        padding: 1em 4%;
-        width: 92%;
-    }
-    .mean-container .mean-nav ul li li a {
-        width: 90%;
-        padding: 1em 5%;
-    }
-    .mean-container .sub-full.megamenu-categories ol li a {
-        padding: 5px 0px;
-        text-transform: capitalize;
-        width: 100%;
-    }
-    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
-        width: auto;
-        border: none;
-        float: none;
     }
     .menu-area-main {
         height: 290px;
         overflow-y: auto;
     }
-    .mean-container .mean-nav ul li a.mean-expand {
-        top: 0;
-    }
+    /* Banner */
     .marginii {
-        margin: 140px 0px 0px 0px;
+        margin: 130px 0px -50px 0px;
+    }
+
+    .banner-main .carousel-caption h1 {
+        font-size: 37px;
+        padding-top: 35px;
+    }
+    #color {
+        line-height: 40px;
+        font-size: 39px;
+    }
+    .banner-main .carousel-caption p {
+        padding-top: 15px;
+        font-size: 13px;
+    }
+
+    .btn-primary 
+    {
+        max-width: 120px;
+        width: 100%;
+    }
+    .img-box {
+        display: none;
+    }
+
+    /* About Us */
+    .bg-text {
+        margin-top: -850px;
+        padding: 20px;
+    }
+    .stl {
+        font-size: 30px;
+    }
+    .stl2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .titlepage h2::after {width: 79%;}
+
+    .about-box .titlepage h2::after {
+        width: 73%;
+        right: -88px;
+    }
+    .contact .titlepage h2::after {
+    left: -403px;
+    width: 41%;
+    }
+
+    /* General Questions */
+    .questions-list li a{
+        font-size: 25px;
+    }
+    .questions-list {
+        padding: 100px 0;
+        margin-top: -70px;
+        margin-left: 0px;
+    }
+    .questions-block h2 {
+        line-height: 50px;
+        font-size: 38px;
+        margin: -5px;
+    }
+    .questions-block {
+        margin-left: 5px;
+    }
+    /* Video */
+    .video .video-box {
+        margin-bottom: 30px;
+        height: 600px;
    }
+   .titlepage h2 {
+       font-size: 40px;
+   }
+   /* Footer */
+   .menu-bottom .link li{
+    padding: 0 5px 0 5px;
+    /* border: 5px solid black; */
+}
 }
 
 /*------------------------------------------------------------------- 575px ---------------------------------------------------------------------*/
 
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
     .last {display: none;}
     .img-box {display: none;} 
 .header {padding-top: 30px;}
@@ -306,11 +353,11 @@ ul.link li {
 .overview {
     margin-top: 0px;
     /* height: 500px */
-}
+/* } */
 
-.bgcol {
-    background: white;
-}
+/* .bgcol { */
+    /* background: white; */
+/* } */
 /* .bg-text {
     position: absolute;
     margin-top: -700px;

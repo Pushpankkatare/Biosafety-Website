@@ -510,7 +510,7 @@ nav.main-menu {
  @media (max-width: 599px)
  {.questions-block {
      margin-right: -40px;
-     width: auto;
+     /* width: auto; */
  }}
 
  /* bg color is here */
@@ -832,6 +832,10 @@ ul.location_icon li:last-child {
 ul.location_icon span {
      font-size: 17px;
      font-weight: 400;
+}
+
+.menu-bottom .link li a:hover {
+     color: greenyellow;
 }
 
 /*--------------------------------------------------------------------- Cards ---------------------------------------------------------------------*/
