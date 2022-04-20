@@ -339,7 +339,7 @@ nav.main-menu {
 .btn-primary {
      border: None;
      background: #05386b;
-     max-width: 170px;
+     max-width: 280px;
      width: 100%;
      margin-right: 10px;
 }
@@ -650,14 +650,14 @@ nav.main-menu {
 
  /* List hovering */
  .questions-list li a:hover{
-     color:#FBB919;
+     /* color:#FBB919; */
  }
  .questions-list li  a:hover::after{
      background: #FBB919;
  }
  .questions-list li a:hover {
-     transform: translateX(10px);
-     -webkit-transform: translateX(10px);
+     transform: translateX(50px);
+     -webkit-transform: translateX(50px);
      transition: all .25s ease-in-out;
      -webkit-transition: all .25s ease-in-out;
  }
